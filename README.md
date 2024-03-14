@@ -3,6 +3,7 @@
 Program ini merupakan implementasi transaksi dalam proses pemesanan dan pembayaran pada sebuah salon kecantikan.
 
 **PENJELASAN OOP**
+
 Program memiliki 3 Class, yaitu class **Product**, **Cashier**, dan **Customer**.
 1. Class Product, memiliki atribut sebagai berikut:
    - id
@@ -21,9 +22,11 @@ Program memiliki 3 Class, yaitu class **Product**, **Cashier**, dan **Customer**
   Atribut selectedProducts merepresentasikan bahwa seorang customer membeli suatu produk dagangan dari sebuah store. Pada program ini, customer akan memilih product yang ditawarkan. Lalu, untuk atribut wallet merupakan banyak uang yang ada pada customer, uang ini akan digunakan untuk melakukan pembayaran ke Cashier.
 
 **PENJELASAN ASYNCHRONOUS**
+
 Setiap customer memesan product, di waktu yang bersamaan cashier akan mencatat pesanan lalu ditampilkan pada display cashier. Lalu juga setiap product yang dipesan oleh customer, harganya akan teriterasi lalu ditampilkan di display.
 
 **ALUR PROGRAM**
+
 1. Mengisi data product terlebih dahulu secara static pada main dan ditampung pada list yang diberi nama list availableProducts
 2. Mengisi data cashier juga secara statis pada main
 3. Karena program datanya saya buat secara statis, selectedProducts yang akan dipilih oleh customer perlu dibikin terlebih dahulu sebelum mengisi data customer secara statis
