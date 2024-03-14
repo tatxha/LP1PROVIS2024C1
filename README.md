@@ -35,3 +35,8 @@ Setiap customer memesan product, di waktu yang bersamaan cashier akan mencatat p
 6. Lalu, dilanjutkan dengan looping product yang dipilih oleh customer untuk menghitung pricenya dan menampilkan pricenya setiap pilihan product bertambah. Jika semua pilihan product customer sudah dieksekusi, maka akan menampilkan total harga yang harus dibayar oleh customer
 7. Customer pun harus membayar sesuai dengan total harga yang ada pada display, jika uang customer lebih dari cukup maka akan menampilkan kebalian yang diterima oleh customer. Jika uang yang ada pada wallet customer tidak cukup, maka akan menampilkan alert bahwa uang tidak cukup
 8. Setelah semua proses transaksi dilakukan, maka akan menampilkan pesan terimakasih kepada customer. 
+
+
+**HASIL PROGRAM**
+
+<img width="475" alt="screenshot_lp1" src="https://github.com/tatxha/LP1PROVIS2024C1/assets/134766457/83e3f247-4b06-4f52-a800-0a7b1c9fbdf7">
