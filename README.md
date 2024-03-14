@@ -27,4 +27,8 @@ Setiap customer memesan product, di waktu yang bersamaan cashier akan mencatat p
 1. Mengisi data product terlebih dahulu secara static pada main dan ditampung pada list yang diberi nama list availableProducts
 2. Mengisi data cashier juga secara statis pada main
 3. Karena program datanya saya buat secara statis, selectedProducts yang akan dipilih oleh customer perlu dibikin terlebih dahulu sebelum mengisi data customer secara statis
-4. Lalu masuk ke ``await cashier.takeOrder(customer)``
+4. Lalu masuk ke ``await cashier.takeOrder(customer)`` untuk melakukan proses asynchronous
+5. Pada ``await cashier.takeOrder(customer)``, akan menampilkan ucapan selamat datang kepada customer
+6. Lalu, dilanjutkan dengan looping product yang dipilih oleh customer untuk menghitung pricenya dan menampilkan pricenya setiap pilihan product bertambah. Jika semua pilihan product customer sudah dieksekusi, maka akan menampilkan total harga yang harus dibayar oleh customer
+7. Customer pun harus membayar sesuai dengan total harga yang ada pada display, jika uang customer lebih dari cukup maka akan menampilkan kebalian yang diterima oleh customer. Jika uang yang ada pada wallet customer tidak cukup, maka akan menampilkan alert bahwa uang tidak cukup
+8. Setelah semua proses transaksi dilakukan, maka akan menampilkan pesan terimakasih kepada customer. 
